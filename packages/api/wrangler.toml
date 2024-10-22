@@ -6,8 +6,8 @@ account_id = "f06078edb59e287f478912af1a7ec7c5"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "geoharvest"
-database_id = "9dd5835b-8c2b-45a7-8248-fb73c0fd3f42"
+database_name = "geoharvestDB"
+database_id = "0afd4466-efad-498f-b58c-48948dd069cb"
 migrations_dir = "migrations"
 
 # The necessary secrets are:
