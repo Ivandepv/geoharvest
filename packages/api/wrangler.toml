@@ -1,0 +1,24 @@
+name = "geoharvest-api"
+compatibility_date = "2024-10-15"
+compatibility_flags = ["nodejs_compat"]
+main = "src/worker.ts"
+account_id = "f06078edb59e287f478912af1a7ec7c5"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "geoharvest"
+database_id = "9dd5835b-8c2b-45a7-8248-fb73c0fd3f42"
+migrations_dir = "migrations"
+
+# The necessary secrets are:
+# - APP_URL - for preventing CORS errors
+# - JWT_VERIFICATION_KEY - for Supabase @link https://supabase.com
+#
+# For local development, you can create a file called .dev.vars and use dotenv syntax.
+#
+# For deployed environments, you can use wrangler secrets to set these values.
+# For example:
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
+# Or use the Cloudflare web interface.
+# @link https://developers.cloudflare.com/workers/platform/environment-variables/#environment-variables-via-the-dashboard
+#
