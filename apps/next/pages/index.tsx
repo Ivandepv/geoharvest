@@ -1,13 +1,13 @@
-import { HomeScreen } from 'app/features/home/screen'
+import { LoginScreen } from 'app/features/sign-in/Login'
 import Head from 'next/head'
 
 export default function Page() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>GeoHarvest</title>
       </Head>
-      <HomeScreen />
+      <LoginScreen />
     </>
   )
 }
